@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block body %}
+	
+	<div class="container mt-5">
+		<h1 class="text-center">Welcome! To Github Profile search app. </h1>
+		<p class="text-justify text-info text-center ">In this app you can search profile of various user by entering their name</p>
+
+		
+		<div class="row">
+			<div class="col-lg-4">
+			</div>
+			<div class="col-lg-4">
+				<form method="Post" action="">
+					<div class="form-group mt-2">
+						<input class="form-control mt-5" placeholder="Search By username" name="username" type="text" >
+						<div class="input-group-append">
+							<button class="btn btn-outline-success text-center mt-2" id="button-addon2">Search</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-lg-4">
+			</div>
+		</div>
+
+
+		
+	{% endblock %}
